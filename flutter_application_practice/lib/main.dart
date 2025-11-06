@@ -113,6 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        splashColor: Colors.amber,
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.search),
